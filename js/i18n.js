@@ -30,7 +30,7 @@ var I18N = {
     "ui.reserveNote": "Quantities already include the reserve you set. Round up to full packs when you order.",
 
     "footer.disclaimer": "Results are estimates for planning and ordering. Check them against your project drawings and your supplier's data before you buy.",
-    "footer.built": "Built in Riga.",
+    "footer.built": "Built in Latvia.",
 
     "unit.m": "m", "unit.cm": "cm", "unit.mm": "mm",
     "unit.m2": "m²", "unit.m3": "m³",
@@ -136,7 +136,7 @@ var I18N = {
     "ui.reserveNote": "Количество уже включает заданный запас. При заказе округляйте до целых упаковок.",
 
     "footer.disclaimer": "Результаты — оценка для планирования и заказа. Перед покупкой сверьте их с проектом и данными поставщика.",
-    "footer.built": "Сделано в Риге.",
+    "footer.built": "Сделано в Латвии.",
 
     "unit.m": "м", "unit.cm": "см", "unit.mm": "мм",
     "unit.m2": "м²", "unit.m3": "м³",
@@ -243,7 +243,7 @@ var I18N = {
     "ui.reserveNote": "Daudzumos jau ir iekļauta norādītā rezerve. Pasūtot noapaļo uz augšu līdz veseliem iepakojumiem.",
 
     "footer.disclaimer": "Rezultāti ir aplēse plānošanai un pasūtīšanai. Pirms iegādes pārbaudi tos pret projektu un piegādātāja datiem.",
-    "footer.built": "Veidots Rīgā.",
+    "footer.built": "Veidots Latvijā.",
 
     "unit.m": "m", "unit.cm": "cm", "unit.mm": "mm",
     "unit.m2": "m²", "unit.m3": "m³",
