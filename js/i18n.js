@@ -14,8 +14,7 @@ var I18N = {
     "meta.title": "Construction calculators — concrete, masonry, tiling",
     "meta.description": "Free construction calculators: concrete volume and cement, block and brick walls, tiles and adhesive. Metric units, no sign-up.",
 
-    "brand.name": "Kalk",
-    "brand.tagline": "construction calculators",
+    "brand.name": "Construction Calculator",
 
     "hero.title": "Type in the measurements. Get the material list.",
     "hero.sub": "Free calculators for concrete, masonry and finishing work. Metric units, no sign-up, made to use on your phone on site.",
@@ -120,8 +119,7 @@ var I18N = {
     "meta.title": "Строительные калькуляторы — бетон, кладка, плитка",
     "meta.description": "Бесплатные строительные калькуляторы: объём бетона и цемент, стены из блоков и кирпича, плитка и клей. Метрическая система, без регистрации.",
 
-    "brand.name": "Kalk",
-    "brand.tagline": "строительные калькуляторы",
+    "brand.name": "Construction Calculator",
 
     "hero.title": "Введите размеры. Получите список материалов.",
     "hero.sub": "Бесплатные калькуляторы для бетона, кладки и отделки. Метрическая система, без регистрации, удобно считать с телефона прямо на объекте.",
@@ -227,8 +225,7 @@ var I18N = {
     "meta.title": "Būvniecības kalkulatori — betons, mūrēšana, flīzēšana",
     "meta.description": "Bezmaksas būvniecības kalkulatori: betona tilpums un cements, bloku un ķieģeļu sienas, flīzes un līme. Metriskā sistēma, bez reģistrācijas.",
 
-    "brand.name": "Kalk",
-    "brand.tagline": "būvniecības kalkulatori",
+    "brand.name": "Construction Calculator",
 
     "hero.title": "Ievadi izmērus. Saņem materiālu sarakstu.",
     "hero.sub": "Bezmaksas kalkulatori betonam, mūrēšanai un apdarei. Metriskā sistēma, bez reģistrācijas, ērti lietot telefonā tieši uz objekta.",
