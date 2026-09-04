@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="meta.title">Construction calculators</title>
+<meta name="description" content="" data-i18n-attr="content" data-i18n="meta.description">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..700&family=Unbounded:wght@500..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="wordmark" href="./">
+    <!-- spirit level: the one tool on every site -->
+    <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+      <rect width="34" height="34" rx="4" fill="#1F4BFF"/>
+      <rect x="4" y="13" width="26" height="8" rx="4" fill="#fff"/>
+      <circle cx="21" cy="17" r="2.6" fill="#1F4BFF"/>
+      <rect x="12" y="13" width="1.4" height="8" fill="#1F4BFF" opacity=".45"/>
+    </svg>
+    <span class="wordmark__text">
+      <b data-i18n="brand.name">Kalk</b>
+      <i data-i18n="brand.tagline">construction calculators</i>
+    </span>
+  </a>
+
+  <nav class="langs" aria-label="Language">
+    <button type="button" class="lang" data-lang="lv" lang="lv">LV</button>
+    <button type="button" class="lang" data-lang="ru" lang="ru">RU</button>
+    <button type="button" class="lang" data-lang="en" lang="en">EN</button>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1 data-i18n="hero.title">Site measurements in, material list out.</h1>
+    <p class="hero__sub" data-i18n="hero.sub">Free calculators for concrete, masonry and finishing work.</p>
+  </section>
+
+  <div class="dimline" role="presentation"></div>
+
+  <section class="tool">
+    <h2 class="sr-only" data-i18n="ui.pick">Pick a calculator</h2>
+    <div class="picker" id="picker" role="tablist"></div>
+
+    <div class="workspace">
+      <form class="panel panel--inputs" id="form" autocomplete="off">
+        <h3 class="panel__title" id="calcName"></h3>
+        <p class="panel__desc" id="calcDesc"></p>
+        <div class="fields" id="fields"></div>
+        <div class="panel__actions">
+          <button type="button" class="btn btn--ghost" id="reset" data-i18n="ui.reset">Reset values</button>
+        </div>
+      </form>
+
+      <aside class="panel panel--out" id="out" aria-live="polite">
+        <h3 class="panel__title" data-i18n="ui.results">Material list</h3>
+        <div id="outBody"></div>
+        <div class="panel__actions no-print">
+          <button type="button" class="btn" id="copy" data-i18n="ui.copy">Copy list</button>
+          <button type="button" class="btn btn--ghost" id="print" data-i18n="ui.print">Print</button>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="foot__note" data-i18n="footer.disclaimer">Results are estimates for planning and ordering.</p>
+  <p class="foot__meta"><span data-i18n="footer.built">Built in Riga.</span></p>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/calculators.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
