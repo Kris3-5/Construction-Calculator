@@ -63,22 +63,19 @@ body {
 .wordmark {
   display: flex;
   align-items: center;
-  gap: 11px;
+  gap: 10px;
   text-decoration: none;
   color: inherit;
 }
 .wordmark svg { display: block; flex: 0 0 auto; }
 
-.wordmark__text { display: flex; flex-direction: column; line-height: 1.15; }
-.wordmark__text b {
-  font: 700 20px/1 var(--display);
-  letter-spacing: -.03em;
-}
-.wordmark__text i {
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--mute);
+.wordmark__cc { display: block; flex: 0 0 auto; color: var(--navy); }
+
+/* two-line lockup: the name is long, so stack it rather than shrink it */
+.wordmark__text {
+  font: 700 14.5px/1.02 var(--display);
+  letter-spacing: -.035em;
+  max-width: 8.2em;
 }
 
 .langs { display: flex; gap: 3px; }
